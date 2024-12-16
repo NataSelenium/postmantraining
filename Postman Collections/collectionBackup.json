@@ -157,7 +157,7 @@
 								"id": "1e25792d-90ea-4d94-a84b-5f3c52f62a1e",
 								"exec": [
 									"pm.test(\"Successful POST request\", function () {\r",
-									"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200,202]);\r",
 									"});"
 								],
 								"type": "text/javascript",
