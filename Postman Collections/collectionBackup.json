@@ -94,7 +94,7 @@
 									"});\r",
 									"\r",
 									"pm.test(\"Successful POST request\", function () {\r",
-									"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Status code name has string\", function () {\r",
@@ -103,7 +103,8 @@
 									"\r",
 									"\r",
 									"console.log(encodeURIComponent(\"component log @\"));\r",
-									"console.log(decodeURIComponent(\"component%20log%20%40\"));"
+									"console.log(decodeURIComponent(\"component%20log%20%40\"));\r",
+									"//hello from fork"
 								],
 								"type": "text/javascript",
 								"packages": {}
