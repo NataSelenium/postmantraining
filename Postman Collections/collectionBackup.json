@@ -427,7 +427,8 @@
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"console.log(\"Pet with id: \" + pm.environment.get(\"petId\") + \" was deleted\");"
+									"console.log(\"Pet with id: \" + pm.environment.get(\"petId\") + \" was deleted\");\r",
+									"//pet will be deleted"
 								],
 								"type": "text/javascript",
 								"packages": {}
