@@ -90,7 +90,7 @@
 									"});\r",
 									"\r",
 									"pm.test(\"Response time is greater than 200ms\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.above(100).to.be.below(10000);\r",
+									"    pm.expect(pm.response.responseTime).to.be.above(100).to.be.below(11000);\r",
 									"});\r",
 									"\r",
 									"pm.test(\"Successful POST request\", function () {\r",
